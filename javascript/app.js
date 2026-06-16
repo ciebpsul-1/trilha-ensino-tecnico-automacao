@@ -22,7 +22,7 @@ registerBtn.addEventListener('click', () => {
 
     document.querySelectorAll('input').forEach(({ value }) => {
         const td = document.createElement('td');
-        td.className = 'd-flex text-center';
+        td.className = 'text-center';
         td.textContent = value;
         row.append(td);
     });
